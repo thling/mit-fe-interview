@@ -17,6 +17,7 @@ module.exports = [
     id: 3,
     firstName: "Barack",
     lastName: "Obama",
-    age: 57
+    age: 57,
+    job: "Former President of USA"
   }
 ];
