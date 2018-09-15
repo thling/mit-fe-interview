@@ -75,7 +75,7 @@ router.patch('/mentors/:id', koaBody(), (ctx) => {
           const obj = { [key]: body[key] };
           Object.assign(mentor, obj)
         });
-    console.log(mentor);
+        
     ctx.response.status = 204;
   }
 });
