@@ -39,3 +39,9 @@ The endpoint supports `GET`, `POST`, `PUT`, and `PATCH` request methods:
 - `POST /mentors` - creates mentor; requires body to be of type `Mentor` (see above)
 - `PUT /mentors/[id]` - updates mentor with ID `id`; body should contain one or more of the fields in type `Mentor`
 - `PATCH /mentors/[id]` - patches mentor with ID `id`; body should contain one or more of the fields in type `Mentor`
+
+# Sending Request
+
+The React app comes with [Axios](https://github.com/axios/axios#example) for sending requests, but feel free to `npm install` whichever library you are most comfortable with (such as jQuery). You can also choose to use the new `fetch` API if you wish.
+
+If you choose to use Axios, all of its response will be a Promise resolving to an object containing a `data` property. This `data` property the JSON body from the server.
