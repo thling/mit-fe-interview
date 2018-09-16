@@ -9,7 +9,7 @@ In this coding exercise, you will be completing 4 tasks (3 + 1 option), most of 
 
 Don't worry too much about CSS styles, but do keep in mind coding styles and organisation.
 
-You will work with an already-scaffolded React app, which can be downloaded from here: https://drive.google.com/open?id=10jyUxaod-AX9U5iM4Kaw8_roBtf_UKcZ
+You will work with an already-scaffolded React app, which can be downloaded from here: https://drive.google.com/open?id=1hhu3kcOUmhISqqhMo7m1De0ONU7RrKcK
 
 # Data Type
 
